@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/public/css/style.css" />
     <link
       rel="stylesheet"
       href="/node_modules/bootstrap/dist/css/bootstrap.css"
@@ -17,6 +17,54 @@
     <title>Hai</title>
   </head>
   <body>
-    <h1 class="">pantek</h1>
+    <!-- Navbar -->
+    <div class="container">
+      <div class="row">
+        <nav class="d-flex mt-4 justify-content-between align-items-center">
+          <div class="d-flex gap-3">
+            <img src="/public/img/favicon.png" alt="Logo Suxz" />
+            <h1 class="title-logo">Suxz</h1>
+            <div>
+              <ul class="d-flex list-unstyled gap-4 ms-5">
+                <li><a class="nav-item" href="">Home</a></li>
+                <li><a class="nav-item" href="">About Us</a></li>
+                <li><a class="nav-item" href="">Blog</a></li>
+                <li><a class="nav-item" href="">Projects</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="button">
+            <button class="btn-login me-4">Log in</button>
+            <button class="btn-signup">Sign up</button>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- End Navbar -->
+    <!-- Hero -->
+    <div class="container mt-3">
+      <div class="row">
+        <div class="wrapper d-flex align-items-center">
+          <div class="col-md-6">
+            <h2 class="hero-brand">Suxz Make it Easy</h2>
+            <h1 class="hero-title">Find Your Way Of Success</h1>
+            <p class="hero-desc">
+              We help you to increase self-confidence and train yourself in a
+              direction, and make you more creative in developing a work
+            </p>
+            <button class="btn-fill-primary me-4">Get Started</button>
+            <button class="btn-fill-secondary">Our Services</button>
+          </div>
+          <div class="col-md-6">
+            <img
+              class="img-fluid w-100"
+              src="/public/img/header_img.png"
+              alt="Hero Image"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Hero -->
   </body>
 </html>
